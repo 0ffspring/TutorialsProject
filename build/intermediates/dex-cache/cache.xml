@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/intermediates/pre-dexed/debug/javax.inject-1-87a82743a6992069524c5d69e446363ecff4a13b.jar"
+        jar="/Users/ivbaranov/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38"/>
+    <item
+        dex="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/intermediates/pre-dexed/debug/picasso-2.3.4-bb864fed16398f58db3bc0875df62c45481594c4.jar"
+        jar="/Users/ivbaranov/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.4/3b646ddbdac8a33fc45b64564011da81d23e4635/picasso-2.3.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3b646ddbdac8a33fc45b64564011da81d23e4635"/>
+    <item
+        dex="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/intermediates/pre-dexed/debug/classes-3d74d389b0507483ad701945b0a96fde82426630.jar"
+        jar="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/intermediates/exploded-aar/me.tatarka.holdr/holdr/1.3.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b5822b8c375abbf2a56f36bf34d89fc468457c78"/>
+    <item
+        dex="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/intermediates/pre-dexed/debug/dagger-1.2.2-9b7d4c27e5b32843692f7c0e97f90f66e33d8823.jar"
+        jar="/Users/ivbaranov/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8"/>
+
+</pre-dex-items>

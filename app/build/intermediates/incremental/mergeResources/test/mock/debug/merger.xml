@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/ivbaranov/Projects/Android/TutorialsProject/app/src/androidTest/res"/><source path="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/generated/res/rs/test/mock/debug"/><source path="/Users/ivbaranov/Projects/Android/TutorialsProject/app/build/generated/res/generated/test/mock/debug"/></dataSet><dataSet config="androidTestMock"><source path="/Users/ivbaranov/Projects/Android/TutorialsProject/app/src/androidTestMock/res"/></dataSet><mergedItems/></merger>

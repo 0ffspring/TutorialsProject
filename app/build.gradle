@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.holdr'
+apply plugin: 'retrolambda'
+
+android {
+  compileSdkVersion 20
+  buildToolsVersion "19.1.0"
+
+  defaultConfig {
+    applicationId "com.todorename.tutorialsproject"
+    minSdkVersion 15
+    targetSdkVersion 20
+    versionCode 1
+    versionName "1.0"
+  }
+  buildTypes {
+    release {
+      runProguard false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+  productFlavors {
+    mock {
+      applicationId "com.todorename.app.mock"
+      versionName "1.0-mock"
+    }
+    full {
+      applicationId "com.todorename.app.full"
+      versionName "1.0-full"
+    }
+  }
+
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile 'com.squareup.dagger:dagger:1.2.+'
+  provided 'com.squareup.dagger:dagger-compiler:1.2.+'
+  compile 'com.squareup.picasso:picasso:2.3.4'
+}
